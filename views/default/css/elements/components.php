@@ -26,8 +26,8 @@ border:0px!important;
 }
 
 ul.elgg-menu-hover li a:hover {
-color: #269283;
-background-color:#f1f1f1;
+color: #fff;
+background-color:#612d62;
 }
 
 ul.elgg-menu-hover-admin li a:hover {
