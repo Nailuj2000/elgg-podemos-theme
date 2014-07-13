@@ -85,10 +85,10 @@
 	min-height: 360px;
 }
 .elgg-layout-one-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/sidebar.png) repeat-y right top;
+	background: #fff!important;
 }
 .elgg-layout-two-sidebar {
-	background: transparent url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/sidebar-double.png) repeat-y right top;
+	background: #fff!important;
 }
 .elgg-layout-error {
 	margin-top: 20px;

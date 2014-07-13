@@ -9,6 +9,41 @@
  */
 ?>
 
+
+/* ***************************************
+	Usuarios - Menu desplegable
+*************************************** */
+
+ul.elgg-menu-hover li a {
+
+}
+
+ul.elgg-menu-hover {
+display: none;
+position: absolute;
+z-index: 10000;
+overflow: hidden;
+min-width: 170px;
+max-width: 250px;
+border: solid 0px;
+border-color: #888;
+background-color: #fff;
+-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+ol, ul {
+list-style: none;
+}
+
+/* ***************************************
+	Reportar footer
+*************************************** */
+
+li.elgg-menu-item-report-this a {
+color:#f6f6f6!important;
+}
+
 /* ***************************************
 	Walledgarden
 *************************************** */
@@ -29,10 +64,33 @@ background:#612d62;
 width:100%;
 }
 
+/* ***************************************
+	Barra de búsqueda
+*************************************** */
+
+.busquedasmovil .elgg-search input[type=text] {
+width: 100%;
+height: 25px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+color: #fff;
+font-size: 13px;
+font-weight: bold;
+line-height: 1.5em;
+padding: 3px 15px;
+background-color: #333;
+}
+
+.busquedasmovil {
+display:none;
+}
 
 /* ***************************************
 	Menu móviles
 *************************************** */
+
 
 #eltoggle {
 float:left;
@@ -174,7 +232,7 @@ border-top-right-radius: 0px;
 
 div.elgg-sidebar {
 position: relative;
-padding: 20px 15px;
+padding: 20px 0px!important;
 float: left;
 width: 100%!important;
 margin: 0;
@@ -186,9 +244,6 @@ width: 92%!important;
 margin: 0 auto;
 }
 
-.elgg-layout-one-sidebar {
-background: #fff!important;
-}
 
 .elgg-page-default {
 min-width: 100%!important;
@@ -218,7 +273,7 @@ width:100%!important; padding:0px!important;
 
 @media (max-width: 960px) {
 
-#homepage-cms #elgg-widget-col-1, #homepage-cms #elgg-widget-col-2, #homepage-cms #elgg-widget-col-3, #homepage-cms #elgg-widget-col-4 {
+div#homepage-cms [id|=elgg-widget-col] {
 width: 50%!important;
 float: left;
 min-height: 0 !important;
@@ -229,6 +284,10 @@ min-height: 0 !important;
 
 
 @media (max-width: 769px) {
+
+div.elgg-main {
+padding: 1px!important;
+}
 
 .elgg-heading-walledgarden {
 margin-top: 0px!important;
@@ -245,11 +304,11 @@ width:100%!important;
 }
 
 div.elgg-page-default .elgg-page-body > div.elgg-inner {
-width: 90%!important;
+width: 100%!important;
 margin: 0 auto;
 }
 
-div#homepage-cms #elgg-widget-col-1, div#homepage-cms #elgg-widget-col-2, div#homepage-cms #elgg-widget-col-3, div#homepage-cms #elgg-widget-col-4 {
+div#homepage-cms [id|=elgg-widget-col] {
 width: 100%!important;
 float: left;
 min-height: 0 !important;
@@ -257,27 +316,37 @@ min-height: 0 !important;
 
 }
 
-
-@media (max-width: 610px) {
-
-div.elgg-page-default .elgg-page-body > div.elgg-inner {
-width: 86%!important;
+@media (max-width: 640px) {
+div.elgg-page-topbar {
+background: #2C2F36!important;
 
 }
 
 }
+
 
 
 @media (max-width: 444px) {
+
+
+
+
+div.busquedasmovil {
+display:block;
+}
+
+div#login-dropdown {
+margin-top:45px;
+}
+
+.elgg-search-header {
+display:none;
+}
 
 .elgg-col-1of2 {
 width: 100%;
 }
 
-div.elgg-page-default .elgg-page-body > div.elgg-inner {
-width: 84%!important;
-
-}
 
 }
 

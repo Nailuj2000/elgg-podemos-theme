@@ -60,7 +60,11 @@ $lang = get_current_language();
 			<?php echo $header; ?>
 		</div>
 	</div>
+	<div class="busquedasmovil">
+	<?php echo elgg_view('search/search_box');?>
+	</div>
 		<div class="menumoviles">
+		
 	<?php // insert site-wide navigation for phones
 echo elgg_view_menu('site'); ?>
     </div>
