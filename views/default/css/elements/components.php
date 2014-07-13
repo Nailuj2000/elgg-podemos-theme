@@ -14,11 +14,29 @@
 	Usuarios - Menu desplegable
 *************************************** */
 
-ul.elgg-menu-hover li a {
+ul.elgg-menu-hover > li {
+border-bottom: 0px solid #bbb;
+}
 
+
+ul.elgg-menu-hover li a {
+background-color:#f7f7f7;
+margin-bottom:5px;
+border:0px!important;
+}
+
+ul.elgg-menu-hover li a:hover {
+color: #269283;
+background-color:#f1f1f1;
+}
+
+ul.elgg-menu-hover-admin li a:hover {
+color: #fff!important;
+background-color: #f00;
 }
 
 ul.elgg-menu-hover {
+font-weight:bold;
 display: none;
 position: absolute;
 z-index: 10000;
@@ -28,6 +46,9 @@ max-width: 250px;
 border: solid 0px;
 border-color: #888;
 background-color: #fff;
+border-top-right-radius: 20px;
+moz-border-top-right-radius: 20px;
+webkit-border-top-right-radius: 20px;
 -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
