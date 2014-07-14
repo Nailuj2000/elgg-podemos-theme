@@ -28,19 +28,19 @@ color:#269283!important;
 }
 
 div.elgg-module-info > .elgg-head {
-background: #612d62;
-border: 0px solid #ccc;
+background: #fff;
+border: 1px dashed #ccc;
 padding: 7px 15px;
 margin-bottom: 10px;
 border-radius: 3px;
 moz-border-radius: 3px;
 webkit-border-radius: 3px;
 
-color:#fff;
+color:#954e99;
 }
 
 div.elgg-module-info > .elgg-head h3, div.elgg-module-info > .elgg-head span a {
-color:#fff;
+color:#954e99;
 }
 
 div.dokuwiki div.bar {
