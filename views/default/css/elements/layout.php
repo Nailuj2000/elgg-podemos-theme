@@ -111,6 +111,8 @@
 	position: relative;
 	min-height: 360px;
 	padding: 15px;
+	width: 100%;
+    float: left;
 }
 .elgg-main > .elgg-head {
 	margin-bottom: 10px;
