@@ -9,6 +9,90 @@
  */
 ?>
 
+/* ***************************************
+	Perfil de círculos
+*************************************** */
+
+div.elgg-module-info > .elgg-head {
+background: #269283;
+border: 0px solid #ccc;
+padding: 7px 15px;
+margin-bottom: 10px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+color:#fff;
+}
+
+div.elgg-module-info > .elgg-head h3, div.elgg-module-info > .elgg-head span a {
+color:#fff;
+}
+
+div.dokuwiki div.bar {
+border: 0px solid #612d62;
+border-radius:5px;
+moz-border-radius:5px;
+webkit-border-radius:5px;
+background: #c3a6cf;
+padding: 0.1em 0.15em;
+clear: both;
+}
+
+div.dokuwiki input.button, div.dokuwiki button.button {
+border: 0px solid #8cacbb!important;
+color: #612d62!important;
+background: #fff!important;
+vertical-align: middle;
+text-decoration: none;
+font-size: 100%;
+cursor: pointer;
+margin: 1px;
+padding: 0.125em 0.4em;
+}
+
+div.dokuwiki div.breadcrumbs {
+background-color: #f9f9f9!important;
+color: #666;
+font-size: 80%;
+padding: 0 0 0 4px;
+border:0px solid #fff!important;
+border-radius:3px;
+moz-border-radius:3px;
+webkit-border-radius:3px;
+}
+
+div.groups-profile-fields div{
+background: #f9f9f9!important;
+padding: 3px 10px;
+margin-bottom: 5px;
+border-radius: 5px;
+moz-border-radius: 5px;
+webkit-border-radius: 5px;
+border:0px solid #fff!important;
+}
+
+div.groups-profile-fields b{
+color: #954e99;
+}
+
+ div.groups-stats b {
+color:#269283;
+}
+
+ div.groups-stats p {
+ font-weight:bold;
+color:#269283;
+}
+
+div.groups-stats {
+border: 0px solid #ccc;
+background: #f9f9f9;
+padding: 10px 15px;
+margin-top: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
 
 /* ***************************************
 	Usuarios - Menu desplegable
@@ -121,7 +205,7 @@ width:90px;
 text-align:center;
 margin-left:10px;
 padding:7px 14px;
-background-color:#269283;
+background-color:#333;
 color:#fff;
 font-weight:bold;
 background: #333 url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/button.png) repeat-x left top;
@@ -306,8 +390,22 @@ min-height: 0 !important;
 
 @media (max-width: 769px) {
 
+
+ul.elgg-menu-topbar-alt li.elgg-menu-item-administration a {
+font-size:0px;
+
+}
+
+#groups-tools > li {
+width: 100%!important;
+min-height: 200px;
+margin-bottom: 20px;
+}
+
 div.elgg-main {
 padding: 1px!important;
+width: 99%;
+float: left;
 }
 
 .elgg-heading-walledgarden {
@@ -338,6 +436,10 @@ min-height: 0 !important;
 }
 
 @media (max-width: 640px) {
+
+
+
+
 div.elgg-page-topbar {
 background: #2C2F36!important;
 
@@ -350,15 +452,27 @@ background: #2C2F36!important;
 @media (max-width: 444px) {
 
 
+div#eltoggle {
+width:96%;
+margin-left:2%;
+margin-right:2%;
+padding:7px 0px;
+border:0px;
 
+
+}
+
+
+div.groups-profile-fields {
+width:100%; float:left;
+margin-top:10px;
+}
 
 div.busquedasmovil {
 display:block;
+margin-bottom:10px;
 }
 
-div#login-dropdown {
-margin-top:45px;
-}
 
 .elgg-search-header {
 display:none;
@@ -368,6 +482,31 @@ display:none;
 width: 100%;
 }
 
+
+}
+
+
+
+@media (max-width: 360px) { 
+
+div#login-dropdown, div#eltoggle {
+margin-top:35px;
+}
+
+div#login-dropdown {
+width:100%;
+position:absolute!important;
+right:0px;
+top:35px;
+}
+
+div#login-dropdown a {
+width:96%!important;
+margin-left:2%;
+margin-right:2%;
+text-align:center!important;
+padding: 10px 0px!important;
+}
 
 }
 
