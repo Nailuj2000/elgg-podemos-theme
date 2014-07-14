@@ -14,7 +14,7 @@
 *************************************** */
 
 div.elgg-module-info > .elgg-head {
-background: #269283;
+background: #612d62;
 border: 0px solid #ccc;
 padding: 7px 15px;
 margin-bottom: 10px;
