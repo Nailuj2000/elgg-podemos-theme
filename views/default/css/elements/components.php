@@ -228,6 +228,11 @@ border:0px; display:none;}
 @media (max-width: 1032px) {
 
 
+div.elgg-main {
+width: 99%!important;
+float: left!important;
+}
+
 div.elgg-module-walledgarden {
 width:100%;
 position: absolute;
@@ -404,8 +409,6 @@ margin-bottom: 20px;
 
 div.elgg-main {
 padding: 1px!important;
-width: 99%;
-float: left;
 }
 
 .elgg-heading-walledgarden {
