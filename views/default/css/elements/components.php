@@ -32,9 +32,10 @@ background: #612d62;
 border: 0px solid #ccc;
 padding: 7px 15px;
 margin-bottom: 10px;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
+border-radius: 3px;
+moz-border-radius: 3px;
+webkit-border-radius: 3px;
+
 color:#fff;
 }
 
@@ -568,7 +569,9 @@ position: relative;
 }
 
 .elgg-module-featured > div.elgg-head, .elgg-module-widget > div.elgg-head {
-
+border-radius:3px;
+moz-border-radius:3px;
+webkit-border-radius:3px;
 background-color: #269283;
 border-bottom: 0px solid #06b;
 }
