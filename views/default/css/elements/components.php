@@ -20,7 +20,7 @@ padding-bottom:10px;
 
 
 div.elgg-module-group span.groups-widget-viewall a {
-color:#fff!important;
+color:#954e99!important;
 }
 
 div.elgg-module-group a {
