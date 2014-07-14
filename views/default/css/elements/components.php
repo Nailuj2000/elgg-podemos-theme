@@ -13,6 +13,10 @@
 	Perfil de círculos
 *************************************** */
 
+div.groups-profile {
+margin-bottom:15px;
+}
+
 div.elgg-module-group {
 background-color:#f9f9f9;
 padding-bottom:10px;
