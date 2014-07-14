@@ -16,6 +16,12 @@
 div.elgg-module-group {
 background-color:#f9f9f9;
 padding-bottom:10px;
+border-bottom-right-radius: 5px;
+moz-border-bottom-right-radius: 5px;
+webkit-border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+moz-border-bottom-left-radius: 5px;
+webkit-border-bottom-left-radius: 5px;
 }
 
 
@@ -559,6 +565,12 @@ background-color: #f9f9f9;
 width: 100%;
 overflow: hidden;
 border-top: 0px solid #ddd;
+border-bottom-right-radius: 5px;
+moz-border-bottom-right-radius: 5px;
+webkit-border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+moz-border-bottom-left-radius: 5px;
+webkit-border-bottom-left-radius: 5px;
 }
 
 div.elgg-module-widget, div.elgg-module-widget:hover {
