@@ -37,7 +37,7 @@ div.elgg-module-group a {
 color:#269283!important;
 }
 
-div.elgg-module-info > .elgg-head, .elgg-module-widget[class~=groups] > div.elgg-head {
+div.elgg-module-info > .elgg-head {
 background: #fff;
 border: 1px dashed #ccc;
 padding: 7px 15px;
@@ -51,8 +51,7 @@ color:#954e99;
 
 
 
-div.elgg-module-info > .elgg-head h3, div.elgg-module-info > .elgg-head span a, .elgg-module-widget[class~=groups] > div.elgg-head h3,
-.elgg-module-widget[class~=groups] > div.elgg-head span a {
+div.elgg-module-info > .elgg-head h3, div.elgg-module-info > .elgg-head span a {
 color:#954e99;
 }
 
