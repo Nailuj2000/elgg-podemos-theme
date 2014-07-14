@@ -227,11 +227,11 @@ border:0px; display:none;}
 
 @media (max-width: 1032px) {
 
-
 div.elgg-main {
 width: 99%!important;
 float: left!important;
 }
+
 
 div.elgg-module-walledgarden {
 width:100%;
@@ -396,9 +396,24 @@ min-height: 0 !important;
 @media (max-width: 769px) {
 
 
-ul.elgg-menu-topbar-alt li.elgg-menu-item-administration a {
+ul.elgg-menu-topbar-alt li.elgg-menu-item-administration a, ul.elgg-menu-topbar-alt li.elgg-menu-item-usersettings a,
+ul.elgg-menu-topbar-alt li.elgg-menu-item-logout a  {
 font-size:0px;
 
+}
+
+ul.elgg-menu-topbar-alt li.elgg-menu-item-administration a span {
+background:url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/engranaje.png) no-repeat;
+width:20px;
+height:20px;
+}
+
+ul.elgg-menu-topbar-alt li.elgg-menu-item-logout a {
+background:url(<?php echo elgg_get_site_url(); ?>mod/bright-theme/graphics/puerta.png) no-repeat;
+width:20px;
+height:20px;
+min-width:20px;
+min-height:20px;
 }
 
 #groups-tools > li {
@@ -409,6 +424,7 @@ margin-bottom: 20px;
 
 div.elgg-main {
 padding: 1px!important;
+
 }
 
 .elgg-heading-walledgarden {
@@ -453,6 +469,10 @@ background: #2C2F36!important;
 
 
 @media (max-width: 444px) {
+
+div.menumoviles {
+margin-top:-10px;
+}
 
 
 div#eltoggle {
