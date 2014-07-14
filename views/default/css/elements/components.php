@@ -13,6 +13,20 @@
 	Perfil de círculos
 *************************************** */
 
+div.elgg-module-group {
+background-color:#f9f9f9;
+padding-bottom:10px;
+}
+
+
+div.elgg-module-group span.groups-widget-viewall a {
+color:#fff!important;
+}
+
+div.elgg-module-group a {
+color:#269283!important;
+}
+
 div.elgg-module-info > .elgg-head {
 background: #612d62;
 border: 0px solid #ccc;
@@ -72,7 +86,7 @@ border:0px solid #fff!important;
 }
 
 div.groups-profile-fields b{
-color: #954e99;
+color: #269283;
 }
 
  div.groups-stats b {
